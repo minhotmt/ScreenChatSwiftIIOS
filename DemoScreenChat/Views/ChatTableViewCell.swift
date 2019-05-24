@@ -2,14 +2,14 @@
 //  ChatTableViewCell.swift
 //  DemoScreenChat
 //
-//  Created by MinKo on 5/23/19.
-//  Copyright © 2019 Minko. All rights reserved.
+//  Created by MinhNV on 5/24/19.
+//  Copyright © 2019 MinhNV. All rights reserved.
 //
 
 import UIKit
 
 class ChatTableViewCell: UITableViewCell {
-    
+
     let messageLabel = UILabel()
     let backgroundMessage = UIView()
     var contrainRight: NSLayoutConstraint!
@@ -27,7 +27,6 @@ class ChatTableViewCell: UITableViewCell {
                 contrainRight.isActive = true
                 contrainLeft.isActive = false
             }
-          
         }
     }
     
@@ -43,30 +42,24 @@ class ChatTableViewCell: UITableViewCell {
         messageLabel.numberOfLines = 0
         messageLabel.translatesAutoresizingMaskIntoConstraints = false
         backgroundMessage.translatesAutoresizingMaskIntoConstraints = false
-        backgroundMessage.backgroundColor = .white
-        backgroundMessage.layer.cornerRadius = 10
         addSubview(backgroundMessage)
         addSubview(messageLabel)
-        
         contrainLeft = self.messageLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 32)
         contrainRight = self.messageLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -32)
-        
-        
+        backgroundMessage.backgroundColor = .white
+        backgroundMessage.layer.cornerRadius = 10
         let contrains = [messageLabel.topAnchor.constraint(equalTo: topAnchor, constant: 32),
-            messageLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -15),
-            messageLabel.widthAnchor.constraint(lessThanOrEqualToConstant: 250),
-            
-            backgroundMessage.topAnchor.constraint(equalTo: messageLabel.topAnchor, constant: -16),
-            backgroundMessage.leadingAnchor.constraint(equalTo: messageLabel.leadingAnchor, constant: -15),
-            backgroundMessage.trailingAnchor.constraint(equalTo: messageLabel.trailingAnchor, constant: 15),
-            backgroundMessage.bottomAnchor.constraint(equalTo: messageLabel.bottomAnchor, constant: 15)
+                         messageLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -15),
+                         messageLabel.widthAnchor.constraint(lessThanOrEqualToConstant: 250),
+                         backgroundMessage.topAnchor.constraint(equalTo: messageLabel.topAnchor, constant: -16),
+                         backgroundMessage.leadingAnchor.constraint(equalTo: messageLabel.leadingAnchor, constant: -15),
+                         backgroundMessage.trailingAnchor.constraint(equalTo: messageLabel.trailingAnchor, constant: 15),
+                         backgroundMessage.bottomAnchor.constraint(equalTo: messageLabel.bottomAnchor, constant: 15)
         ]
-        
-        
         NSLayoutConstraint.activate(contrains)
     }
-    
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
+
 }

@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  DemoScreenChat
 //
-//  Created by MinKo on 5/23/19.
-//  Copyright © 2019 Minko. All rights reserved.
+//  Created by MinhNV on 5/24/19.
+//  Copyright © 2019 MinhNV. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
     }
 
 

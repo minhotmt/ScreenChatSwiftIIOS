@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		181F00BC2296A5AE0033CDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F00BB2296A5AE0033CDA9 /* AppDelegate.swift */; };
-		181F00BE2296A5AE0033CDA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F00BD2296A5AE0033CDA9 /* ViewController.swift */; };
-		181F00C12296A5AE0033CDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F00BF2296A5AE0033CDA9 /* Main.storyboard */; };
-		181F00C32296A5B00033CDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181F00C22296A5B00033CDA9 /* Assets.xcassets */; };
-		181F00C62296A5B00033CDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181F00C42296A5B00033CDA9 /* LaunchScreen.storyboard */; };
-		181F00D52296A6EA0033CDA9 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F00D32296A6EA0033CDA9 /* ChatTableViewCell.swift */; };
-		181F00D62296A6EA0033CDA9 /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181F00D42296A6EA0033CDA9 /* ChatTableViewCell.xib */; };
-		181F00D92296A8B10033CDA9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F00D72296A8B10033CDA9 /* ChatViewController.swift */; };
-		181F00DA2296A8B10033CDA9 /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181F00D82296A8B10033CDA9 /* ChatViewController.xib */; };
+		400B7853229780B400FAFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7852229780B400FAFB9F /* AppDelegate.swift */; };
+		400B7855229780B400FAFB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7854229780B400FAFB9F /* ViewController.swift */; };
+		400B7858229780B400FAFB9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B7856229780B400FAFB9F /* Main.storyboard */; };
+		400B785A229780B600FAFB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B7859229780B600FAFB9F /* Assets.xcassets */; };
+		400B785D229780B600FAFB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B785B229780B600FAFB9F /* LaunchScreen.storyboard */; };
+		400B7868229780EB00FAFB9F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7866229780EB00FAFB9F /* ChatViewController.swift */; };
+		400B7869229780EB00FAFB9F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400B7867229780EB00FAFB9F /* ChatViewController.xib */; };
+		400B786C2297810100FAFB9F /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B786A2297810100FAFB9F /* ChatTableViewCell.swift */; };
+		400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400B786B2297810100FAFB9F /* ChatTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		181F00B82296A5AE0033CDA9 /* DemoScreenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScreenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		181F00BB2296A5AE0033CDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181F00BD2296A5AE0033CDA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		181F00C02296A5AE0033CDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		181F00C22296A5B00033CDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		181F00C52296A5B00033CDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		181F00C72296A5B00033CDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		181F00D32296A6EA0033CDA9 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
-		181F00D42296A6EA0033CDA9 /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
-		181F00D72296A8B10033CDA9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		181F00D82296A8B10033CDA9 /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		400B784F229780B400FAFB9F /* DemoScreenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScreenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		400B7852229780B400FAFB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		400B7854229780B400FAFB9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		400B7857229780B400FAFB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		400B7859229780B600FAFB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		400B785C229780B600FAFB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		400B785E229780B600FAFB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		400B7866229780EB00FAFB9F /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		400B7867229780EB00FAFB9F /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		400B786A2297810100FAFB9F /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		400B786B2297810100FAFB9F /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		181F00B52296A5AE0033CDA9 /* Frameworks */ = {
+		400B784C229780B400FAFB9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,65 +43,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		181F00AF2296A5AE0033CDA9 = {
+		400B7846229780B400FAFB9F = {
 			isa = PBXGroup;
 			children = (
-				181F00BA2296A5AE0033CDA9 /* DemoScreenChat */,
-				181F00B92296A5AE0033CDA9 /* Products */,
+				400B7851229780B400FAFB9F /* DemoScreenChat */,
+				400B7850229780B400FAFB9F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		181F00B92296A5AE0033CDA9 /* Products */ = {
+		400B7850229780B400FAFB9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				181F00B82296A5AE0033CDA9 /* DemoScreenChat.app */,
+				400B784F229780B400FAFB9F /* DemoScreenChat.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		181F00BA2296A5AE0033CDA9 /* DemoScreenChat */ = {
+		400B7851229780B400FAFB9F /* DemoScreenChat */ = {
 			isa = PBXGroup;
 			children = (
-				181F00D22296A6CE0033CDA9 /* Views */,
-				181F00D12296A6BF0033CDA9 /* Views Controller */,
-				181F00BB2296A5AE0033CDA9 /* AppDelegate.swift */,
-				181F00BD2296A5AE0033CDA9 /* ViewController.swift */,
-				181F00BF2296A5AE0033CDA9 /* Main.storyboard */,
-				181F00C22296A5B00033CDA9 /* Assets.xcassets */,
-				181F00C42296A5B00033CDA9 /* LaunchScreen.storyboard */,
-				181F00C72296A5B00033CDA9 /* Info.plist */,
+				400B7865229780D100FAFB9F /* View Controller */,
+				400B7864229780CA00FAFB9F /* Views */,
+				400B7852229780B400FAFB9F /* AppDelegate.swift */,
+				400B7854229780B400FAFB9F /* ViewController.swift */,
+				400B7856229780B400FAFB9F /* Main.storyboard */,
+				400B7859229780B600FAFB9F /* Assets.xcassets */,
+				400B785B229780B600FAFB9F /* LaunchScreen.storyboard */,
+				400B785E229780B600FAFB9F /* Info.plist */,
 			);
 			path = DemoScreenChat;
 			sourceTree = "<group>";
 		};
-		181F00D12296A6BF0033CDA9 /* Views Controller */ = {
+		400B7864229780CA00FAFB9F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				181F00D72296A8B10033CDA9 /* ChatViewController.swift */,
-				181F00D82296A8B10033CDA9 /* ChatViewController.xib */,
-			);
-			path = "Views Controller";
-			sourceTree = "<group>";
-		};
-		181F00D22296A6CE0033CDA9 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				181F00D32296A6EA0033CDA9 /* ChatTableViewCell.swift */,
-				181F00D42296A6EA0033CDA9 /* ChatTableViewCell.xib */,
+				400B786A2297810100FAFB9F /* ChatTableViewCell.swift */,
+				400B786B2297810100FAFB9F /* ChatTableViewCell.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		400B7865229780D100FAFB9F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				400B7866229780EB00FAFB9F /* ChatViewController.swift */,
+				400B7867229780EB00FAFB9F /* ChatViewController.xib */,
+			);
+			path = "View Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		181F00B72296A5AE0033CDA9 /* DemoScreenChat */ = {
+		400B784E229780B400FAFB9F /* DemoScreenChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 181F00CA2296A5B00033CDA9 /* Build configuration list for PBXNativeTarget "DemoScreenChat" */;
+			buildConfigurationList = 400B7861229780B600FAFB9F /* Build configuration list for PBXNativeTarget "DemoScreenChat" */;
 			buildPhases = (
-				181F00B42296A5AE0033CDA9 /* Sources */,
-				181F00B52296A5AE0033CDA9 /* Frameworks */,
-				181F00B62296A5AE0033CDA9 /* Resources */,
+				400B784B229780B400FAFB9F /* Sources */,
+				400B784C229780B400FAFB9F /* Frameworks */,
+				400B784D229780B400FAFB9F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -109,25 +109,25 @@
 			);
 			name = DemoScreenChat;
 			productName = DemoScreenChat;
-			productReference = 181F00B82296A5AE0033CDA9 /* DemoScreenChat.app */;
+			productReference = 400B784F229780B400FAFB9F /* DemoScreenChat.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		181F00B02296A5AE0033CDA9 /* Project object */ = {
+		400B7847229780B400FAFB9F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = Minko;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MinhNV;
 				TargetAttributes = {
-					181F00B72296A5AE0033CDA9 = {
-						CreatedOnToolsVersion = 10.2.1;
+					400B784E229780B400FAFB9F = {
+						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 181F00B32296A5AE0033CDA9 /* Build configuration list for PBXProject "DemoScreenChat" */;
+			buildConfigurationList = 400B784A229780B400FAFB9F /* Build configuration list for PBXProject "DemoScreenChat" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,58 +135,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 181F00AF2296A5AE0033CDA9;
-			productRefGroup = 181F00B92296A5AE0033CDA9 /* Products */;
+			mainGroup = 400B7846229780B400FAFB9F;
+			productRefGroup = 400B7850229780B400FAFB9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				181F00B72296A5AE0033CDA9 /* DemoScreenChat */,
+				400B784E229780B400FAFB9F /* DemoScreenChat */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		181F00B62296A5AE0033CDA9 /* Resources */ = {
+		400B784D229780B400FAFB9F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181F00C62296A5B00033CDA9 /* LaunchScreen.storyboard in Resources */,
-				181F00D62296A6EA0033CDA9 /* ChatTableViewCell.xib in Resources */,
-				181F00C32296A5B00033CDA9 /* Assets.xcassets in Resources */,
-				181F00DA2296A8B10033CDA9 /* ChatViewController.xib in Resources */,
-				181F00C12296A5AE0033CDA9 /* Main.storyboard in Resources */,
+				400B785D229780B600FAFB9F /* LaunchScreen.storyboard in Resources */,
+				400B785A229780B600FAFB9F /* Assets.xcassets in Resources */,
+				400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */,
+				400B7869229780EB00FAFB9F /* ChatViewController.xib in Resources */,
+				400B7858229780B400FAFB9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		181F00B42296A5AE0033CDA9 /* Sources */ = {
+		400B784B229780B400FAFB9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181F00BE2296A5AE0033CDA9 /* ViewController.swift in Sources */,
-				181F00D52296A6EA0033CDA9 /* ChatTableViewCell.swift in Sources */,
-				181F00D92296A8B10033CDA9 /* ChatViewController.swift in Sources */,
-				181F00BC2296A5AE0033CDA9 /* AppDelegate.swift in Sources */,
+				400B7855229780B400FAFB9F /* ViewController.swift in Sources */,
+				400B786C2297810100FAFB9F /* ChatTableViewCell.swift in Sources */,
+				400B7868229780EB00FAFB9F /* ChatViewController.swift in Sources */,
+				400B7853229780B400FAFB9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		181F00BF2296A5AE0033CDA9 /* Main.storyboard */ = {
+		400B7856229780B400FAFB9F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				181F00C02296A5AE0033CDA9 /* Base */,
+				400B7857229780B400FAFB9F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		181F00C42296A5B00033CDA9 /* LaunchScreen.storyboard */ = {
+		400B785B229780B600FAFB9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				181F00C52296A5B00033CDA9 /* Base */,
+				400B785C229780B600FAFB9F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -194,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		181F00C82296A5B00033CDA9 /* Debug */ = {
+		400B785F229780B600FAFB9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		181F00C92296A5B00033CDA9 /* Release */ = {
+		400B7860229780B600FAFB9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +300,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -310,38 +310,36 @@
 			};
 			name = Release;
 		};
-		181F00CB2296A5B00033CDA9 /* Debug */ = {
+		400B7862229780B600FAFB9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7HGM5P6WV;
 				INFOPLIST_FILE = DemoScreenChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.minhnv.demoparsejson.DemoScreenChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhnv.DemoScreenChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		181F00CC2296A5B00033CDA9 /* Release */ = {
+		400B7863229780B600FAFB9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H7HGM5P6WV;
 				INFOPLIST_FILE = DemoScreenChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.minhnv.demoparsejson.DemoScreenChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.minhnv.DemoScreenChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -349,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		181F00B32296A5AE0033CDA9 /* Build configuration list for PBXProject "DemoScreenChat" */ = {
+		400B784A229780B400FAFB9F /* Build configuration list for PBXProject "DemoScreenChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181F00C82296A5B00033CDA9 /* Debug */,
-				181F00C92296A5B00033CDA9 /* Release */,
+				400B785F229780B600FAFB9F /* Debug */,
+				400B7860229780B600FAFB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		181F00CA2296A5B00033CDA9 /* Build configuration list for PBXNativeTarget "DemoScreenChat" */ = {
+		400B7861229780B600FAFB9F /* Build configuration list for PBXNativeTarget "DemoScreenChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181F00CB2296A5B00033CDA9 /* Debug */,
-				181F00CC2296A5B00033CDA9 /* Release */,
+				400B7862229780B600FAFB9F /* Debug */,
+				400B7863229780B600FAFB9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 181F00B02296A5AE0033CDA9 /* Project object */;
+	rootObject = 400B7847229780B400FAFB9F /* Project object */;
 }
