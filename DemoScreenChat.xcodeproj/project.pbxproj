@@ -8,21 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		400B7853229780B400FAFB9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7852229780B400FAFB9F /* AppDelegate.swift */; };
-		400B7855229780B400FAFB9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7854229780B400FAFB9F /* ViewController.swift */; };
-		400B7858229780B400FAFB9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B7856229780B400FAFB9F /* Main.storyboard */; };
 		400B785A229780B600FAFB9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400B7859229780B600FAFB9F /* Assets.xcassets */; };
 		400B785D229780B600FAFB9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400B785B229780B600FAFB9F /* LaunchScreen.storyboard */; };
 		400B7868229780EB00FAFB9F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B7866229780EB00FAFB9F /* ChatViewController.swift */; };
 		400B7869229780EB00FAFB9F /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400B7867229780EB00FAFB9F /* ChatViewController.xib */; };
 		400B786C2297810100FAFB9F /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400B786A2297810100FAFB9F /* ChatTableViewCell.swift */; };
 		400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400B786B2297810100FAFB9F /* ChatTableViewCell.xib */; };
+		406E2F16229CE6F100E9EC2A /* CommingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406E2F14229CE6F100E9EC2A /* CommingTableViewCell.swift */; };
+		406E2F17229CE6F100E9EC2A /* CommingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406E2F15229CE6F100E9EC2A /* CommingTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		400B784F229780B400FAFB9F /* DemoScreenChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoScreenChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		400B7852229780B400FAFB9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		400B7854229780B400FAFB9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		400B7857229780B400FAFB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		400B7859229780B600FAFB9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		400B785C229780B600FAFB9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		400B785E229780B600FAFB9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,6 +28,8 @@
 		400B7867229780EB00FAFB9F /* ChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
 		400B786A2297810100FAFB9F /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 		400B786B2297810100FAFB9F /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
+		406E2F14229CE6F100E9EC2A /* CommingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommingTableViewCell.swift; sourceTree = "<group>"; };
+		406E2F15229CE6F100E9EC2A /* CommingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommingTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,6 @@
 				400B7865229780D100FAFB9F /* View Controller */,
 				400B7864229780CA00FAFB9F /* Views */,
 				400B7852229780B400FAFB9F /* AppDelegate.swift */,
-				400B7854229780B400FAFB9F /* ViewController.swift */,
-				400B7856229780B400FAFB9F /* Main.storyboard */,
 				400B7859229780B600FAFB9F /* Assets.xcassets */,
 				400B785B229780B600FAFB9F /* LaunchScreen.storyboard */,
 				400B785E229780B600FAFB9F /* Info.plist */,
@@ -79,6 +77,8 @@
 			children = (
 				400B786A2297810100FAFB9F /* ChatTableViewCell.swift */,
 				400B786B2297810100FAFB9F /* ChatTableViewCell.xib */,
+				406E2F14229CE6F100E9EC2A /* CommingTableViewCell.swift */,
+				406E2F15229CE6F100E9EC2A /* CommingTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -152,9 +152,9 @@
 			files = (
 				400B785D229780B600FAFB9F /* LaunchScreen.storyboard in Resources */,
 				400B785A229780B600FAFB9F /* Assets.xcassets in Resources */,
+				406E2F17229CE6F100E9EC2A /* CommingTableViewCell.xib in Resources */,
 				400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */,
 				400B7869229780EB00FAFB9F /* ChatViewController.xib in Resources */,
-				400B7858229780B400FAFB9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,9 +165,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				400B7855229780B400FAFB9F /* ViewController.swift in Sources */,
 				400B786C2297810100FAFB9F /* ChatTableViewCell.swift in Sources */,
 				400B7868229780EB00FAFB9F /* ChatViewController.swift in Sources */,
+				406E2F16229CE6F100E9EC2A /* CommingTableViewCell.swift in Sources */,
 				400B7853229780B400FAFB9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,14 +175,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		400B7856229780B400FAFB9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				400B7857229780B400FAFB9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		400B785B229780B600FAFB9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

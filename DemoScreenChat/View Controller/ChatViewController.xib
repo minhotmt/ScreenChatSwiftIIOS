@@ -14,7 +14,6 @@
             <connections>
                 <outlet property="btnSend" destination="iam-m9-0eq" id="dHP-wT-816"/>
                 <outlet property="tableView" destination="uwm-3O-ry5" id="PHd-Q9-Ias"/>
-                <outlet property="txtInput" destination="JlG-IR-rEo" id="kjB-yS-5V3"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewInput" destination="YkZ-dG-IoX" id="sg9-DK-K0e"/>
             </connections>
@@ -33,13 +32,6 @@
                     <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JlG-IR-rEo">
-                            <rect key="frame" x="10" y="10" width="295" height="40"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <nil key="textColor"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                            <textInputTraits key="textInputTraits"/>
-                        </textField>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iam-m9-0eq">
                             <rect key="frame" x="315" y="10" width="50" height="40"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
