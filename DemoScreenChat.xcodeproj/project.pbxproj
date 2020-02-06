@@ -16,6 +16,8 @@
 		400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400B786B2297810100FAFB9F /* ChatTableViewCell.xib */; };
 		406E2F16229CE6F100E9EC2A /* CommingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406E2F14229CE6F100E9EC2A /* CommingTableViewCell.swift */; };
 		406E2F17229CE6F100E9EC2A /* CommingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406E2F15229CE6F100E9EC2A /* CommingTableViewCell.xib */; };
+		B4E465C123EBBC9600A9770D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E465BF23EBBC9600A9770D /* HomeVC.swift */; };
+		B4E465C223EBBC9600A9770D /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4E465C023EBBC9600A9770D /* HomeVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		400B786B2297810100FAFB9F /* ChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTableViewCell.xib; sourceTree = "<group>"; };
 		406E2F14229CE6F100E9EC2A /* CommingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommingTableViewCell.swift; sourceTree = "<group>"; };
 		406E2F15229CE6F100E9EC2A /* CommingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommingTableViewCell.xib; sourceTree = "<group>"; };
+		B4E465BF23EBBC9600A9770D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		B4E465C023EBBC9600A9770D /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 			children = (
 				400B7866229780EB00FAFB9F /* ChatViewController.swift */,
 				400B7867229780EB00FAFB9F /* ChatViewController.xib */,
+				B4E465BF23EBBC9600A9770D /* HomeVC.swift */,
+				B4E465C023EBBC9600A9770D /* HomeVC.xib */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400B785D229780B600FAFB9F /* LaunchScreen.storyboard in Resources */,
+				B4E465C223EBBC9600A9770D /* HomeVC.xib in Resources */,
 				400B785A229780B600FAFB9F /* Assets.xcassets in Resources */,
 				406E2F17229CE6F100E9EC2A /* CommingTableViewCell.xib in Resources */,
 				400B786D2297810100FAFB9F /* ChatTableViewCell.xib in Resources */,
@@ -166,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				400B786C2297810100FAFB9F /* ChatTableViewCell.swift in Sources */,
+				B4E465C123EBBC9600A9770D /* HomeVC.swift in Sources */,
 				400B7868229780EB00FAFB9F /* ChatViewController.swift in Sources */,
 				406E2F16229CE6F100E9EC2A /* CommingTableViewCell.swift in Sources */,
 				400B7853229780B400FAFB9F /* AppDelegate.swift in Sources */,
